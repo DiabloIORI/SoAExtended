@@ -16,7 +16,7 @@ DO ~SetGlobal("C0X1Begin","GLOBAL",1)~
 == C0X1KID2 ~<PRO_HESHE>做的梦一定很可怕。我想<PRO_HESHE>刚才还在嘟囔……~
 == C0X1KID3 ~别靠太近！维拉斯说<PRO_HESHE>会变成怪物。~
 == C0X1KID2 ~我看<PRO_HESHE>不太像怪物。~
-== C0X1KID1 ~可是<PRO_HESHE>阻止了放逐者，救了我们的女王！那<PRO_HESHE>至少是位了不起的战士，或是强大的法师。真希望有一天我能像<PRO_HIMHER>一样强，像<PRO_HESHE>那样守护我们的城市。~
+== C0X1KID1 ~可是<PRO_HESHE>阻止了放逐者，救了我们的女王！那<PRO_HESHE>至少是位了不起的战士，或是强大的法师。真希望有一天我能像<PRO_HESHE>一样强，像<PRO_HESHE>那样守护我们的城市。~
 == C0X1KID3 ~哪能呢。你哥用棍子敲你一下，你还哭鼻子呢。~
 == C0X1KID1 ~你竟敢——~
 == C0X1KID2 ~嘘！<PRO_HESHE>像是要醒了。~
