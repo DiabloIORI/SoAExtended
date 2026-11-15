@@ -29,5 +29,5 @@ END
 END
 END
 
-BEGIN ~Shadows of Amn Extended: Book 1 - Quiet Before the Storm~ DESIGNATED 0001
+BEGIN ~《安姆阴影扩展：第一卷——风暴前的宁静》~ DESIGNATED 0001
 INCLUDE ~%MOD_FOLDER%/lib/book1.tpa~

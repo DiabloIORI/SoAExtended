@@ -5,57 +5,57 @@ CHAIN IF WEIGHT #-1 ~GlobalGT("C0X1Begin","GLOBAL",0)
 InParty("KELDORN")
 See("KELDORN")
 Global("C0X1MariaQuest","GLOBAL",0)~ THEN MARIA maria
-~My dear husband... you have returned at last. And from your worn expression, I can see your quest has been a difficult one indeed.~
+~我亲爱的夫君……你终于回来了。从你疲惫的神情，我看得出这趟征程委实艰辛。~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",1)~
-== KELDORJ IF ~Global("C0X1KeldornWasInHell","GLOBAL",1)~ ~Aye, to the Hells and back, and more precisely than I ever could have imagined...~
-== KELDORJ IF ~!Global("C0X1KeldornWasInHell","GLOBAL",1)~ ~Aye, truly it has been a mission beyond any I have faced in the past...~
-== KELDORJ ~But it is finally over, and I may fulfill my promise to you at last, my love. I am home.~
-== MARIA ~And... this time, are you here to stay?~
-== KELDORJ ~I...~
+== KELDORJ IF ~Global("C0X1KeldornWasInHell","GLOBAL",1)~ ~是啊，闯了趟地狱又回来，比我想象的还要凶险得多……~
+== KELDORJ IF ~!Global("C0X1KeldornWasInHell","GLOBAL",1)~ ~是啊，这桩任务确实胜过我以往经历过的任何一桩……~
+== KELDORJ ~但终于结束了，我也终于能兑现对你的承诺，亲爱的。我回家了。~
+== MARIA ~那么……这一次，你是留下来了吗？~
+== KELDORJ ~我……~
 END
-  ++ ~Go on, Keldorn. You've fulfilled your promise. It's time for your well-deserved rest.~ EXTERN KELDORJ maria.1
-  ++ ~It's your choice, my friend. I would like you to stay, but I cannot force you.~ EXTERN KELDORJ maria.1
-  ++ ~Irenicus is dead, but my destiny is not over yet. I could still use you.~ EXTERN KELDORJ maria.1
+  ++ ~说吧，凯尔德隆。你已兑现承诺，该好好歇歇了。~ EXTERN KELDORJ maria.1
+  ++ ~这由你决定，我的朋友。我希望你留下，但我不能勉强你。~ EXTERN KELDORJ maria.1
+  ++ ~艾瑞尼卡斯虽死，我的命运却尚未了结。我仍需要你。~ EXTERN KELDORJ maria.1
 
 
 CHAIN KELDORJ maria.1
-~Maria, I—~
-== MARIA ~No, please do not explain, my love. I think I understand.~
-== MARIA ~I have thought deeply of all that has occurred... since the truth between us was revealed, I have realized the depths of how terrible our mistakes have been... and from my reflections, I have come to understand that as you are, even were you to ignore your deepest doubts and stay with me, you would undoubtedly come to regret it when your duty is not truly fulfilled.~
-== MARIA ~And... I can see that you have forged a true bond of camaraderie with your leader <CHARNAME>, far beyond any of your past brothers-in-arms that I have met... you would not rest easy if you abandoned <PRO_HIMHER> now, of all times.~
-== KELDORJ ~I... I cannot deny it. From our journeys together, I have felt a sense of responsibility to <PRO_HIMHER>, as a trusted friend, and one in need. But if it must come to opposition with that which I hold to you, dearest, then I must—~
-== MARIA ~Go with <PRO_HIMHER>, Keldorn.~
-== KELDORJ ~What?~
-== MARIA ~I wish in my heart that you could stay, truly... but I know you cannot ever truly feel free from your duty, even when released from it. Even here, I have heard tales of the dangers rising in the south, of what is to come... if it will bring you true, lasting peace to see the end of things, then I beg of you, go. It is who you are, and the man I love could be no less.~
-== KELDORJ ~Maria, I... thank you, my love...~
-== MARIA ~But, promise me... promise that you will come back. Come back to me alive, that is all I ask.~
-== KELDORJ ~I will.~
-== MARIA ~Then I will pray for your success on your journey, and your safe return...~
-== MARIA ~Ah, but before you go, my love, you have not forgotten an important occasion, have you? Vesper's birthday is soon.~
-== KELDORJ ~I have not forgotten... I regret I may not be present to celebrate it with her, and all of you... but I wish to do something for her nonetheless.~
-== MARIA ~While you are still here... give her a gift. The act itself will please her, even if she will miss your presence.~
-== KELDORJ ~Of course. Before I leave the city, I will do so immediately, as poor a compensation as it is.~
-== MARIA ~I trust you already know what to give her?~
-== KELDORJ ~Aye, that I do. <CHARNAME>, if it is not too much to ask... shall we travel to the Promenade together?~
+~玛丽亚，我——~
+== MARIA ~不，不必解释了，亲爱的。我想我明白。~
+== MARIA ~发生的一切，我都反复想过……自从我们之间的真相摊开，我才意识到我们的错误有多深重……思来想去，我明白了：以你如今的心境，即便压下心底最深的疑虑留在我身边，等到你的职责未能真正完成，你也注定会悔恨。~
+== MARIA ~而且……我看得出来，你与你的领队<CHARNAME>结下了真挚的情谊，远胜过我见过的你以往任何一位战友……偏偏在这个时候离弃<PRO_HIMHER>，你绝不会安心。~
+== KELDORJ ~我……我无法否认。一路同行下来，我对<PRO_HIMHER>生出了一份责任，对方是可信赖的朋友，也是需要帮助的人。但若这终究要与我对你的情意相冲突，亲爱的，那我就必须——~
+== MARIA ~跟着<PRO_HIMHER>走吧，凯尔德隆。~
+== KELDORJ ~什么？~
+== MARIA ~我真心盼着你能留下，真的……但我知道，即便卸下职责，你也永远无法真正从中解脱。就在这里，我也听说了南方危局渐起、山雨欲来的传闻……若能看到事情落幕，给你带来真正长久的安宁，那我求你，去吧。这就是你，而我所爱的男人，本就不会是另一个样子。~
+== KELDORJ ~玛丽亚，我……谢谢你，亲爱的……~
+== MARIA ~但答应我……答应我你会回来。活着回到我身边，这就是我唯一的请求。~
+== KELDORJ ~我答应你。~
+== MARIA ~那我就为你此行的顺遂、为你平安归来祈祷……~
+== MARIA ~啊，不过在你走之前，亲爱的，有件要紧事你没忘吧？薇丝珀的生日快到了。~
+== KELDORJ ~我没忘……很遗憾，我恐怕没法陪她、陪你们大家一起庆祝……但我仍想为她做点什么。~
+== MARIA ~趁你还在……送她一份礼物。这份心意本身就会让她高兴，即便她会想念你在身边。~
+== KELDORJ ~当然。离开城之前，我会立刻去办，虽说这实在算不得什么像样的补偿。~
+== MARIA ~我想你已经知道该送她什么了吧？~
+== KELDORJ ~是的，我知道。<CHARNAME>，若不嫌冒昧……我们一同去女神步道，好吗？~
 END
-  ++ ~Of course. We have more than enough time on our hands now, after all.~ EXTERN KELDORJ maria.2
-  ++ ~Fine, as long as we make it quick.~ EXTERN KELDORJ maria.2
-  ++ ~This seems like a simple thing to do without me. Let's split up for now.~ EXTERN KELDORJ maria.3
-  ++ ~I have no interest in dealing with your family matters. Do it yourself.~ EXTERN KELDORJ maria.3
+  ++ ~当然。反正我们现在时间多得是。~ EXTERN KELDORJ maria.2
+  ++ ~行，只要快点办完。~ EXTERN KELDORJ maria.2
+  ++ ~这事没我也行吧。我们先分头走。~ EXTERN KELDORJ maria.3
+  ++ ~我没兴趣掺和你的家务事。你自己去吧。~ EXTERN KELDORJ maria.3
 
 CHAIN KELDORJ maria.2
-~Thank you, my friend... to Enge's, then. What I seek, if it is within Athkatla, will most likely be found there.~
+~谢谢你，我的朋友……那就去恩格店里吧。我要找的东西，若阿斯卡特拉城内有，多半就在那里。~
 EXIT
 
 CHAIN KELDORJ maria.3
-~So be it, then... allow me a day, <CHARNAME>, and I will meet you here once my personal affairs are dealt with. Farewell for now.~
+~那就这样……给我一天时间，<CHARNAME>，等我把私事料理妥当，再来这里与你会合。暂时别过。~
 DO ~SetGlobalTimer("C0X1MariaQuestSkip","GLOBAL",ONE_DAY)
 LeaveParty()
 EscapeArea()
 SetGlobal("C0X1MariaQuest","GLOBAL",12)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",2)~ THEN KELDORJ maria2
-~Here we are. <CHARNAME>, if I might ask you to browse the wares with me...~
+~到了。<CHARNAME>，可否请你陪我看看这些货品……~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",3)
 ClearAllActions()
 StartCutSceneMode()
@@ -68,60 +68,60 @@ Wait(2)
 StartDialogNoSet(Player1)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",3)~ THEN KELDORJ maria3
-~It has been some time since I have had the opportunity to spare for such informal matters. Between my service to the Order, as well as to you, I have long forgotten what it is like to live as an ordinary man.~
+~我已有许久没有余暇顾及这类家常事了。既要侍奉教团，又要追随你，我早已忘了做个普通人是什么滋味。~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",4)~
 END
-  ++ ~I'm sorry for asking you to stay with me all this time. You have a right to be with your family.~ + maria3.1
-  ++ ~You still have the choice. Now that Irenicus is defeated, your service is rightfully over.~ + maria3.1
-  ++ ~What exactly are we looking for?~ + maria3.2
+  ++ ~抱歉一直让你陪着我。你本就该和家人待在一起。~ + maria3.1
+  ++ ~你仍然可以选择。艾瑞尼卡斯既已落败，你的服役按理也该结束了。~ + maria3.1
+  ++ ~我们究竟在找什么？~ + maria3.2
 
 CHAIN KELDORJ maria3.1
-~Nay, <CHARNAME>, do not feel responsible for my choices. After what I have seen during my time within your company... I have only become further affirmed that my choice, though difficult, may have been the right one.~
-== KELDORJ ~Few could know of the trials of the sort you have faced, and fewer still who may shoulder its weight. Those such as yourself deserve the aid that I may give... that, after all, is why I have chosen the life I lead.~
-== KELDORJ ~I have become a participant in the journey towards the destiny that awaits you, and such a road is not easily departed from. My heart may yearn for peace, but until I can see the safety of your own peace is ensured, I doubt I will rest easy.~
-== KELDORJ ~Now, enough of this for now. Let us attend to the matter of my daughter's birthday gift.~
+~不，<CHARNAME>，不必为我的选择心怀愧疚。一路同行所见所闻之后……我愈发确信，我的选择虽艰难，却或许是正确的。~
+== KELDORJ ~很少有人能体会你所经历的磨难，能扛起这份重担的人就更少了。像你这样的人，值得我伸出援手……说到底，这也正是我选择如今这条路的原因。~
+== KELDORJ ~我已踏上了通往你所注定命运的旅程，这样一条路，轻易脱不得身。我心中或许向往安宁，但在亲眼确认你的安宁有保障之前，我怕自己难以安歇。~
+== KELDORJ ~好了，先不说这些。我们来办女儿生日礼物这桩事吧。~
 EXTERN KELDORJ maria3.2
 
 CHAIN KELDORJ maria3.2
-~The gift I am searching for... it is an exotic fruit of Malatra, purple in color and slightly smaller than a normal man's fist in size. During one of my missions for the Order, I received a bundle as a gift from a Malatran trader whom I and my fellows aided.~
-== KELDORJ ~It is not customary for those of the Order to accept rewards for our service, but the man was exceptionally insistent, and it seemed an insult to refuse... I was still a younger man at the time, my duties less strict, and I had more chances to return to my family.~
-== KELDORJ ~The fruit that was not shared with my brothers, I brought home, and Vesper took a particular liking to them, and for the first time was eager to hear the details of my work, to learn the tale of how I acquired them.~
-== KELDORJ ~Ever since then, I have come once every year to see if they can be found in the city's markets. Some years they are, others not... but I have come no matter slight the chance, so that I might recapture some semblance of that moment of joy. It seems there are none this year, however...~
-== KELDORJ ~Excuse me, sir. Are there "Queen-of-fruit" in stock, perchance?~
-== SHOP04 ~"Queen-of-fruit"? No, milord, ve are not havink any zis season. My suppliers have been saying ze importink vas too expensive zis year, you see. None here vithin ze city, sadly. Perhaps in Trademeet, they be havingk some, ja.~
-== KELDORJ ~Trademeet... I see. Thank you, sir. That is all I needed to ask.~
-== KELDORJ ~Forgive me, <CHARNAME>... it seems this small errand will take longer than expected. I intend to go to Trademeet to see if what I seek may be found there. If it is acceptable, I may go alone, and meet you again at my estate within a day.~
+~我要找的礼物……是马拉特拉的一种异域果实，呈紫色，比常人拳头略小。有次为教团执行任务，我和同僚帮过一位马拉特拉商人，他便送了我一捆作为谢礼。~
+== KELDORJ ~教团中人按例不接受酬谢，可那人执意要给，推辞反倒像是羞辱……那时我还年轻些，职责也没那么严苛，能回家的机会也更多。~
+== KELDORJ ~那份没分给同袍的果实，我带回了家，薇丝珀格外喜欢，头一回缠着我讲差事的经过，想听我是怎么得到那些果子的。~
+== KELDORJ ~从那以后，我每年都来城里市集碰碰运气。有些年份买得到，有些年份没有……可哪怕希望再渺茫，我也会来，好重拾那一刻些许的欢喜。不过今年看来是没有了……~
+== KELDORJ ~打扰了，先生。请问贵店可有“果中王后”的存货？~
+== SHOP04 ~“果中王后”？回老爷，这一季咱可没有。供货商都说今年进货太贵，您明白的。城中店里，唉，是寻不着了。兴许在贸易镇还能寻着一些，是呢。~
+== KELDORJ ~贸易镇……原来如此。谢谢你，先生。我想问的就这些。~
+== KELDORJ ~请原谅，<CHARNAME>……看来这趟小差使要比预想的更久。我打算去贸易镇，看看能不能在那里寻到要找的东西。若你同意，我可以独自前往，一天之内回宅邸与你会合。~
 END
-  ++ ~No, let's go together. I have nothing better to do now, anyway.~ + maria3.3
-  ++ ~Alright. I'll meet you at your home tomorrow, then.~ + maria.2
+  ++ ~不，我们一起去。反正我现在也没别的事做。~ + maria3.3
+  ++ ~好吧。那我明天去你府上找你。~ + maria.2
 
 CHAIN KELDORJ maria3.3
-~So be it. To Trademeet, then.~
+~那就这样。动身去贸易镇。~
 EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",5)~ THEN KELDORJ maria4
-~May the gods' blessings be upon you today, good woman. Have you any "queen-of-fruit" for sale, if I may ask?~
+~愿神明今日赐福于你，好心的女士。请问你这儿可有“果中王后”出售？~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",6)~
-== C0X1NPC1 ~"Queen-of-fruit", is it? Why, you're in luck, milord, I have just received my seasonal shipment not so long ago. I have plenty in stock, fresh as though picked right off the tree! How many would you like to purchase?~
-== KELDORJ ~Hmm. Bring out your largest sack, madam, and fill it with as many as it may hold.~
-== C0X1NPC1 ~It shall be done, milord. That will no doubt be enough for your whole family to enjoy for a week, if not more. Just give me a few moments to fill and weigh the bag, and I can inform you of the price...~
-== KELDORJ ~Once again, I appreciate that you were willing to accompany me for such a trivial matter, <CHARNAME>.~
+== C0X1NPC1 ~“果中王后”？哎呀，老爷您运气好，我这批时令货刚到不久。存货充足，鲜活得像是刚从树上摘下来的！您想买多少？~
+== KELDORJ ~嗯。把你最大的口袋拿来，女士，能装多少就装多少。~
+== C0X1NPC1 ~这就办，老爷。这些想必够您全家吃上一个星期，说不准更久。您稍等我片刻，把袋子装满称好，再告诉您价钱……~
+== KELDORJ ~再一次感谢你，<CHARNAME>，愿意陪我办这桩琐事。~
 END
-  ++ ~You've done so much for me. This barely counts towards repaying the favor.~ + maria4.1
-  ++ ~This fruit must be worth all this trouble. Perhaps I'll sample a few for myself.~ + maria4.2
-  ++ ~The sooner we get this over with, the better.~ + maria4.3
+  ++ ~你为我做了那么多。这还算不得报答你的人情。~ + maria4.1
+  ++ ~这果子值得这么跑一趟吧。说不定我也来几颗尝尝。~ + maria4.2
+  ++ ~这事越快了结越好。~ + maria4.3
 
 CHAIN KELDORJ maria4.1
-~Ha! True enough, I cannot deny that. Would that all such debts could be repaid so easily...~
+~哈！说得是，这点我没法否认。但愿所有这类人情都能如此轻易偿还……~
 EXTERN KELDORJ maria4.3
 
 CHAIN KELDORJ maria4.2
-~It is a touch saccharine for my own palate, though perhaps in my age, I may yet develop an appreciation for it. I should not forget to treat you to some as well, whilst we have the opportunity...~
+~对我这口味来说是甜了些，不过上了年纪，说不定慢慢也会品出味道来。趁还有机会，我也该请你尝几颗……~
 EXTERN KELDORJ maria4.3
 
 CHAIN KELDORJ maria4.3
-~This should not take too much longer. Once I have paid the seller, we may return to my daughter, and I will have performed part of my role as father at last. Then...~
-== KELDORJ ~Wait. Do you see that, <CHARNAME>?~
+~用不了多久了。付过钱，我们就能回去找女儿，我这个做父亲的总算也尽了一分心意。接下来……~
+== KELDORJ ~等等。你看见没有，<CHARNAME>？~
 DO ~ClearAllActions()
 StartCutSceneMode()
 CreateCreature("C0X1NPC2",[2620.2632],NW)
@@ -136,9 +136,9 @@ Wait(5)
 StartDialogNoSet(Player1)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",6)~ THEN KELDORJ maria5
-~*sigh* It appears that such petty misdeeds must always occur within our sight no matter the day and age. No rest for the wicked, nor for those whom must stop them...~
+~*叹息* 看来无论什么年月，这类小恶行总会撞上我们眼皮子。恶人不得安宁，阻止恶人的人也不得安宁……~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",7)~
-== KELDORJ ~Wait here a moment, <CHARNAME>. I will have this dealt with quickly enough.~
+== KELDORJ ~在这儿稍等片刻，<CHARNAME>。我很快就能把这事了结。~
 DO ~ClearAllActions()
 StartCutSceneMode()
 MoveViewPoint([2623.2655],STANDARD)
@@ -162,10 +162,10 @@ Wait(4)
 StartDialogNoSet(Player1)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",7)~ THEN KELDORJ maria6
-~Your purse, sir. I hope its contents are as you expect them to be.~
+~您的钱袋，先生。但愿里面的东西与您预期的相符。~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",8)~
-== C0X1NPC2 ~Th—thank you, good knight! I owe my savings to your fortuitous presence! Please allow me to repay—~
-== KELDORJ ~Nay, sir. It is my duty, and I accept your gratitude, but I cannot demand a reward for such a deed. It is what any decent man should have done, were they in my place.~
+== C0X1NPC2 ~谢——谢谢您，好心的骑士！多亏您及时出现，我这积蓄才保住！请允许我报答您——~
+== KELDORJ ~不必了，先生。这是我的职责，你的谢意我心领，但这样的事我不能索取酬劳。换作任何正直的人处在我的位置，都会这么做。~
 DO ~ClearAllActions()
 StartCutSceneMode()
 FaceObject("C0X1NPC2")
@@ -178,73 +178,73 @@ Wait(4)
 StartDialogNoSet(Player1)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",8)~ THEN KELDORJ maria7
-~My apologies for the delay, <CHARNAME>. It was regrettable that I needed to intervene there.~
+~抱歉耽搁了，<CHARNAME>。方才不得不出面制止，委实遗憾。~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",9)~
 END
-  ++ ~What happened to the thief?~ + maria7.5
-  ++ ~You did a good thing. There's hardly a need for regrets.~ + maria7.1
-  ++ ~Most wouldn't have even bothered to get involved in something so minor.~ + maria7.2
-  ++ ~Whatever. I have your fruits. Let's get going.~ + maria7.4
+  ++ ~那窃贼怎么处置了？~ + maria7.5
+  ++ ~你做了件好事，没什么好遗憾的。~ + maria7.1
+  ++ ~换作旁人，这般小事多半根本懒得管。~ + maria7.2
+  ++ ~无所谓了。果子我拿到了，走吧。~ + maria7.4
 
 CHAIN KELDORJ maria7.1
-~You misunderstand me, <CHARNAME>. I regret that no matter the good done under our name, it appears that misdeeds will spawn regardless, both large and small. Such is the world.~
+~你误会了，<CHARNAME>。我感慨的是，无论我们行下多少善事，恶行似乎仍会大大小小地滋生不息。世道便是如此。~
 EXTERN KELDORJ maria7.3
 
 CHAIN KELDORJ maria7.2
-~Perhaps minor for those of our status. But to those harmed by such misdeeds, no matter how simple the motivations, it may affect their lives in ways we cannot hope to imagine.~
+~在我们这般身份的人看来或许是小事，可对受所害的人而言，无论起因多简单，影响都可能是我们无法想象的。~
 EXTERN KELDORJ maria7.3
 
 CHAIN KELDORJ maria7.3
-~It seems that I cannot help myself, <CHARNAME>. When the call to action finds me, I will unfailingly rise to the occasion, no matter how great or small the duty.~
-== KELDORJ ~My honor tells me that it is for the greater good. My heart knows that it is my guilt for seeking comfort in my own peace, while I know others continue to suffer without those ready to answer their cries.~
-== KELDORJ ~Once again... please do not feel responsible for keeping me at your side, my friend. Regardless of your need, my actions are my own choice, none other's.~
+~我似乎身不由己，<CHARNAME>。只要有需要我出手的召唤，无论职责大小，我都必定挺身而出。~
+== KELDORJ ~我的荣誉告诉我，这是为了更大的善。我心里明白，那是一种愧疚：我贪求自身的安宁，而明知他人仍在受苦，却无人准备好回应他们的哭喊。~
+== KELDORJ ~再说一次……请不要为把我留在你身边而心怀负担，我的朋友。无论是否需要我，我的举动都是我自己的选择，与旁人无关。~
 EXTERN KELDORJ maria7.4
 
 CHAIN KELDORJ maria7.4
-~Now then, let us return home, now that my own task is complete.~
+~好了，我的差事既已办完，我们回家吧。~
 EXIT
 
 CHAIN KELDORJ maria7.5
-~He was but a young lad. I saw in his eyes he merely lacked the perspective to understand the harm he was truly doing. A firm warning and the right incentive not to repeat his mistakes was more than enough.~
+~他还只是个孩子。我从他眼神看得出，他只是欠缺见识，不明白自己真正造成了多大伤害。一次严厉的告诫，加上别再重蹈覆辙的恰当鞭策，就已经足够。~
 EXTERN KELDORJ maria7.3
 
 CHAIN IF WEIGHT #-1 ~GlobalGT("C0X1Begin","GLOBAL",0)
 InParty("KELDORN")
 See("KELDORN")
 Global("C0X1MariaQuest","GLOBAL",9)~ THEN MARIA maria8
-~My love, I see you have returned, and with great success.~
+~亲爱的，我看你回来了，而且大获成功。~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",10)~
-== KELDORJ ~Indeed. It was a remarkably simple task, this time... rarely can I say that with such honesty.~
-== MARIA ~Vesper is waiting for you. You should show her what you have... ah, but make sure you not forget a bowl, first.~
+== KELDORJ ~是啊。这一回的任务出奇地简单……我很少能这样坦诚地说这句话。~
+== MARIA ~薇丝珀在等你呢。你该把带的东西给她看看……啊，不过先别忘了拿只碗来。~
 EXIT
 
 CHAIN IF WEIGHT #-1 ~GlobalGT("C0X1Begin","GLOBAL",0)
 IsGabber("KELDORN")
 Global("C0X1MariaQuest","GLOBAL",10)~ THEN VESPER vesper
-~Father! You're finally back!~
+~父亲！你终于回来了！~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",11)~
-== KELDORJ ~Yes, my dear. I am... with your favorite gift in tow, at that.~
-== VESPER ~Are those... the "queen-of-fruit"? Oh, Father! It's been three years since the last time you brought them home!~
-== KELDORJ ~Has it truly been so long? Yes, I suppose it must have... do you still remember the stories I told you the first time?~
-== VESPER ~Yes, I do. But you must surely have so many more to tell now... won't you stay just a bit longer and tell me all of them?~
-== KELDORJ ~...~
-== LEONA ~Father...~
-== KELDORJ ~My dear child, I am truly sorry... your father has broken his promise to you once again.~
-== VESPER ~I...~
-== VESPER ~I understand, Father. You... you need to see this one's ending, first. I know it's important to you... and that means it's important to us, too. I can wait... I'll be a good girl, just like you taught me. I promise.~
-== KELDORJ ~Thank you... you are a very good girl, Vesper. I am truly blessed to have daughters like the two of you.~
-== VESPER ~Just... please come back, Father. I can live with you not being with us... but don't die. Please, promise us you won't die.~
-== KELDORJ ~...Of course, I promise. I cannot fall, not when I have you waiting for me. Farewell, dear daughter. And, though it is early... I wish you a happy birthday.~
-== VESPER ~Thank you, Father. And goodbye... we're all waiting for you...~
+== KELDORJ ~嗯，好孩子。我回来了……还把你最爱的礼物带来了。~
+== VESPER ~那些……就是“果中王后”吗？噢，父亲！距你上次把它们带回家，都已经三年了！~
+== KELDORJ ~真有这么久了吗？是啊，想来也是……你还记得我头一回给你讲的那些故事吗？~
+== VESPER ~记得。可你现在肯定有更多故事可讲了……你能不能再多留一会儿，讲给我听？~
+== KELDORJ ~……~
+== LEONA ~父亲……~
+== KELDORJ ~我可怜的孩子，真对不起……你父亲又一次失信于你了。~
+== VESPER ~我……~
+== VESPER ~我明白，父亲。你……你得先去看到这件事的结尾。我知道这对你很重要……那对我们也一样重要。我能等……我会做个乖孩子，就像你教我的那样。我保证。~
+== KELDORJ ~谢谢你……你真是个好孩子，薇丝珀。能有你们两个女儿，我真是有福。~
+== VESPER ~只是……请一定回来，父亲。你不在我们身边，我能接受……但千万别死。求你，答应我们，你不要死。~
+== KELDORJ ~……当然，我答应你。有你们在等我，我不能倒下。再见，我亲爱的女儿。还有，虽说还早……祝你生日快乐。~
+== VESPER ~谢谢你，父亲。再见……我们都等你回来……~
 DO ~AddXPObject("Keldorn",15000)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0X1MariaQuest","GLOBAL",13)~ THEN KELDORP keldorn.end
-~I am here, as I promised, <CHARNAME>. My farewells have been spoken, and your journey awaits. I trust you still desire my aid?~
+~我如约回来了，<CHARNAME>。辞别已毕，你的旅程在前方等候。我想你仍需要我的协助？~
 DO ~SetGlobal("C0X1MariaQuest","GLOBAL",14)~
 END
-  ++ ~Let's go, then.~ DO ~JoinParty()~ EXIT
-  ++ ~Actually... there's still time before the next step of my road. When the time comes, I will call on you, Keldorn. Until then, enjoy your time with your family.~ + keldorn.end.1
+  ++ ~那走吧。~ DO ~JoinParty()~ EXIT
+  ++ ~其实……踏上我道路的下一段之前，还有时间。到时候我会来找你，凯尔德隆。在那之前，好好陪你的家人。~ + keldorn.end.1
 
 CHAIN KELDORP keldorn.end.1
-~Aye, as you wish... I will treasure this time, whether it be lasting or brief. Until the time comes, <CHARNAME>. Do not hesitate to ask.~
+~好，如你所愿……这段时光无论长短，我都会好好珍惜。到时候见，<CHARNAME>。需要我时尽管开口。~
 EXIT

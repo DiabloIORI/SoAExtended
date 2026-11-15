@@ -1,29 +1,29 @@
 CHAIN IF WEIGHT #-1 ~Global("C0X1JaheiraTalk","GLOBAL",1)~ THEN JAHEIRAJ jaheira
-~So... we are back. To where we first saw the light again, and within this rubble... is where this all began.~
+~这么说……我们回来了。回到了我们重见天日的地方，而这片废墟……正是一切开始的地方。~
 DO ~SetGlobal("C0X1JaheiraTalk","GLOBAL",2)~
-== JAHEIRAJ ~Though I despise the thought of returning to that nightmarish dungeon, with all we have suffered and lost within it... some part of me wishes we could regardless. So that we may pay our proper respects to the fallen.~
-== JAHEIRAJ ~But... this is as close as we will get. If you would take a moment to wait, <CHARNAME>, I would like to speak a few words to Khalid's memory.~
+== JAHEIRAJ ~虽说一想到要回到那座噩梦般的地牢，我就满心厌恶，我们在那里受尽苦楚、失去了那么多……可我心底仍有一部分希望我们还是回来。好向逝者致以应有的敬意。~
+== JAHEIRAJ ~不过……我们能到的，也就这里了。请稍候片刻，<CHARNAME>，我想对卡立德的亡魂说几句话。~
 END
-  ++ ~Of course. Take as much time as you need, Jaheira.~ + jaheira.1
-  ++ ~Fine. I'll go find a decent place to sit for a while.~ + jaheira.1
-  ++ ~We don't have time for this. You can mourn anywhere.~ + jaheira.0
+  ++ ~当然。你想用多少时间都可以，贾希拉。~ + jaheira.1
+  ++ ~行吧，我去找个像样的地方坐一会儿。~ + jaheira.1
+  ++ ~我们没时间耗在这上面。你在哪儿哀悼都行。~ + jaheira.0
 
 CHAIN JAHEIRAJ jaheira.0
-~As you wish. Under any other circumstance, I would question your dedication to our lost friends, but your destiny is a difficult one, <CHARNAME>, and so I will not judge you this time.~
+~如你所愿。换作任何其他情形，我都会质疑你对逝去友人的心意，但你的命运本就多舛，<CHARNAME>，所以这一次我不评判你。~
 EXIT
 
 CHAIN JAHEIRAJ jaheira.1
-~Khalid... it has been a long time. I am back. Irenicus is dead, and you... you are avenged at last.~
-== MINSCJ IF ~InParty("MINSC")~ THEN ~We should say a few words for Dynaheir too, don't you agree, Boo? *squeak* What's that? You think her spirit is long gone, Boo? No, that cannot be! Dynaheir has watched over us all of this time, I know it!~
-== JAHEIRAJ ~Much has happened since we lost you, and I have seen and learned many things. Of <CHARNAME>, of myself, of things I once believed I knew, but was truly ignorant of... but I have learned that it can all be accepted, and overcome.~
-== JAHEIRAJ ~I have few regrets left. The one remaining... was that I lacked the strength to carry you out from beneath that hellish place, so that you may have the dignity you deserve... but I have always known how strong you truly were, Khalid. You would have been strong enough to walk in my steps, had our places been exchanged.~
-== JAHEIRAJ ~For your sake, I will press on. I will fulfill Gorion's hopes, and yours, for <CHARNAME>. Only then can I finally accept that you will be at peace. I promise you, Khalid, I will not fall... and I will not forget you as the man whose true strength was far beyond mine.~
-== MINSCJ IF ~InParty("MINSC")~ THEN ~Oh, Dynaheir... you are listening, yes? Minsc may not be able to hear your voice, but he still senses you. Yes, Minsc has been strong, and kicked Irenicus into the fiery pits that the fiend deserves with his trusty, hardened boot!~
-== MINSCJ IF ~InParty("MINSC")~ THEN ~But Minsc... Minsc still often feels lost without you. I still wish you were here, to teach me to read, to listen when I have a question, and to smack me in the back of my head when I am being foolish. We are so lucky that <CHARNAME> is almost as good of a teacher as you were, Dynaheir. If not... I do not know how far I would have made it.~
-== MINSCJ IF ~InParty("MINSC")~ THEN ~Minsc—Minsc can often be a fool, and others may laugh at him for it, but Minsc has always known... known that I am nothing but trouble without someone with the wisdom to point my sword in the correct direction. But that is why Minsc must press on for <CHARNAME>'s sake. Our actions shall never bring you shame, Dynaheir, so long as we live and breathe! So says Minsc, and says Boo! *squeak*~
-== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~Khalid... Dynaheir... to be honest, I don't even know what to say. After all the pain, the torture and darkness, I was afraid I'd even forgotten what the two of you looked like. I...~
-== JAHEIRAJ IF ~InParty("IMOEN2")~ ~Go on, child.~
-== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~I was afraid to admit it to myself, but I think more than a little of it was deliberate. I was so afraid of remembering, of thinking about what Irenicus had done to you in front of me, while I was trapped and helpless, that I just wanted to forget all of it... no matter how ashamed it'd make me afterward.~
-== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~But now, after it's all over... it's all coming back to me. All the good, and the difficult times we shared together as friends and companions... I miss you both so much. I wish I could see you again... and I hope wherever you both are, you're at peace. And... that you'll forgive me for not having the strength to save you.~
-== JAHEIRAJ ~No more words need be said for any of us. The past is settled... and now, it is your future that we must all think of, <CHARNAME>. We cannot allow those who still live to follow the fallen. Never again.~
+~卡立德……好久了。我回来了。艾瑞尼卡斯已死，而你……你终于得报此仇。~
+== MINSCJ IF ~InParty("MINSC")~ THEN ~我们也该为狄娜希说几句，你说是不是，布布？*吱吱* 怎么？你觉得她的亡魂早就散了，布布？不，不可能！狄娜希一直都在护着我们，我知道的！~
+== JAHEIRAJ ~自失去你之后，发生了许多事，我也见识、学到了许多。关于<CHARNAME>，关于我自己，关于那些我曾以为知晓、实则一无所知的事……但我已懂得，这一切都可以接纳，都可以跨越。~
+== JAHEIRAJ ~我已不剩多少遗憾。唯一残留的……是我当时没有力气把你从那地狱般的地方背出来，让你保有应有的尊严……但我一直都明白你真正有多坚强，卡立德。若是易地而处，你本可以坚强到步我的后尘。~
+== JAHEIRAJ ~为了你，我会继续走下去。我会完成葛里安的期许，也完成你的期许，为了<CHARNAME>。唯有如此，我才能最终接受你已安息。我向你保证，卡立德，我不会倒下……也不会忘记你——这个真正远胜于我的人。~
+== MINSCJ IF ~InParty("MINSC")~ THEN ~噢，狄娜希……你在听着，对不对？明斯克或许听不见你的声音，但他仍能感知到你。是的，明斯克一直很坚强，穿着那双可靠的硬靴，把艾瑞尼卡斯一脚踹进了那恶徒活该待的火坑里！~
+== MINSCJ IF ~InParty("MINSC")~ THEN ~可明斯克……没有你，明斯克仍时常茫然。我仍希望你在这里，教我读书，在我有疑问时听我倾诉，在我犯蠢时敲敲我的后脑勺。我们真幸运，<CHARNAME>几乎和你一样是位好老师，狄娜希。若非如此……真不知我能撑到哪一步。~
+== MINSCJ IF ~InParty("MINSC")~ THEN ~明斯克——明斯克时常是个傻瓜，旁人或会因此取笑他，可明斯克一直都明白……明白若没有一位有智慧的人替他指明剑该往哪个方向挥，他就只是个麻烦。正因如此，明斯克才必须为了<CHARNAME>走下去。只要我们一息尚存，所作所为就绝不会让你蒙羞，狄娜希！这是明斯克说的，也是布布说的！*吱吱*~
+== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~卡立德……狄娜希……说实话，我甚至不知该说什么。历经那么多痛苦、折磨与黑暗之后，我甚至怕自己已经忘了你们两人的模样。我……~
+== JAHEIRAJ IF ~InParty("IMOEN2")~ ~说下去，孩子。~
+== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~我一直不敢对自己承认，但我想这其中多少有些刻意。我太害怕回忆，太不愿去想艾瑞尼卡斯当着我的面对你们做了什么，而我当时却被困住、无能为力，于是只想把这一切都忘掉……无论事后我会多么羞愧。~
+== IMOEN2J IF ~InParty("IMOEN2")~ THEN ~可如今，一切都结束了……那些记忆又都涌了回来。所有美好的、以及我们作为朋友和同伴一同度过的艰难时光……我是那么想念你们俩。真希望能再见到你们……也希望无论你们身在何处，都已安息。还有……希望你们能原谅我，原谅我当时没有力气救下你们。~
+== JAHEIRAJ ~我们谁都不必再多说什么了。过往已成定局……如今，我们该考虑的是你的未来，<CHARNAME>。我们不能让还活着的人追随逝者的脚步。绝不再有下一次。~
 EXIT
